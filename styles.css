@@ -1,0 +1,59 @@
+body {    
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 { 
+  color: #00698f; 
+  text-align: center;
+}
+
+#background-container {
+  background-image: url('BG.jfif');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #B5C0D0; /* Changed background color to blue */
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  overflow-y: auto;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+p span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+  
